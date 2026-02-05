@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Clock, Star, CheckCircle } from "lucide-react";
 import BookingBtn from "../_component/BookingBtn";
-import { getSingleService } from "@/services/servicesAction";
+import { getSingleService } from "@/services/services.service";
 
 export function generateStaticParams() {
   return [

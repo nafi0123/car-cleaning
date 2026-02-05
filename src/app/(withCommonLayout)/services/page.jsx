@@ -2,7 +2,7 @@ import React from "react";
 import ServiceCard from "./_component/ServiceCard";
 import Container from "@/components/shared/Container";
 import ServicesSearching from "./_component/ServicesSearching";
-import { getAllServices } from "@/services/servicesAction";
+import { getAllServices } from "@/services/services.service";
 
 // const getAllServices = async (searchParams) => {
 //   const getParams = new URLSearchParams(searchParams).toString();
